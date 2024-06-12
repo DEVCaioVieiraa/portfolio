@@ -1,0 +1,24 @@
+.btn{
+    background-color: aqua;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-top: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+
+.btn:hover{
+    color: aliceblue;
+    background-color: #010B28;
+    transition-duration: 0.5s;
+    transform: translatey(-7px);
+
+}
+
+.btn a{
+    text-decoration: none;
+}

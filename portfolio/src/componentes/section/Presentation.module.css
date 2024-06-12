@@ -1,0 +1,16 @@
+.presentation {
+    text-align: center; /* Centralizar o conteúdo */
+  }
+  
+  .paragraphs {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os parágrafos quebrem para a linha abaixo se necessário */
+    justify-content: center; /* Centralizar os parágrafos horizontalmente */
+    font-size: 20px;
+  }
+  
+  .paragraph {
+    flex: 0 0 45%; /* Cada parágrafo ocupará 45% da largura da linha */
+    margin: 10px; /* Espaçamento entre os parágrafos */
+  }
+  
